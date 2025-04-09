@@ -1,16 +1,46 @@
-# github_profile
+# GitHub Profile Search App
 
-A new Flutter project.
+A Flutter app built with **MVVM architecture** and **Provider**, which allows users to search for GitHub profiles and view their public repositories. The app handles no internet connectivity gracefully and supports filtering of repositories.
 
-## Getting Started
+##  Features
 
-This project is a starting point for a Flutter application.
+-  Search GitHub users by username.
+-  View user profile information.
+-  Display user's repositories.
+-  Detects and handles no internet connection.
+-  MVVM architecture.
+-  Uses `Provider` for state management.
+-  Custom filtering based on repository type (`all`, `owner`, `member`.).
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**
+- **Provider** for state management
+- **HTTP** package for API requests
+- **Connectivity Plus** for checking network status
+
+### Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/your-username/github_profile_search.git
+cd github_profile_search
+
+flutter pub get
+
+
+flutter run
+```
+
+##  Screenshots
+
+###  Search Screen
+![Search Screen](screenshots/home_screen.png)
+
+###  Profile Screen
+![Profile Screen](screenshots/profile_screen.png)
+
+
+
