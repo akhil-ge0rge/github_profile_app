@@ -34,13 +34,15 @@ flutter pub get
 flutter run
 ```
 
-##  Screenshots
+<h2>📷 Screenshots</h2>
 
-###  Search Screen
-![Search Screen](screenshots/home_screen.png)
+<div style="display: flex; gap: 10px;">
+  <img src="assets/screenshots/IMG_4891.PNG"  height="400">
+  <img src="assets/screenshots/IMG_4892.PNG"  height="400">
+  <img src="assets/screenshots/IMG_4893.PNG"  height="400">
+  <img src="assets/screenshots/IMG_4894.PNG"  height="400">
+</div>
 
-###  Profile Screen
-![Profile Screen](screenshots/profile_screen.png)
 
 
 
